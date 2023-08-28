@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.recipe {
+    background-color: wheat;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    }
+.recipe h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+.recipe p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #ff6721;
+}
+.recipe ul {
+    margin: 0;
+    padding-left: 2rem;
+    list-style-type: disc;
+    font-size: 1.2rem;
+    color: #0f0e0f;
+}
+.recipe ol {
+    margin: 0;
+    padding-left: 2rem;
+    list-style-type: decimal;
+    font-size: 1.2rem;
+    color: #080509;
+}
+.recipe strong {
+    color: #c34e05;
+}
+.recipe-top {
+    background-color: #120808;
+    border-radius: 10px 10px 0 0;
+    padding: 1.5rem 2rem;
+    margin: -2rem -2rem 2rem -2rem;
+}
+.recipe-top h2 {
+    font-size: 3rem;
+    color: #555;
+}
+.recipe-top p {
+    font-size: 1.3rem;
+    color: #1410e3;
+}
+.recipe-top a {
+    color: #f8857b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    padding: 8px 15px;
+    background-color: #A0522D;
+    color: #100e0e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.5s, box-shadow 0.5s;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.contact-info {
+    color: #fff;
+    background-color: #D2691E;
+    padding: 2rem;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 25px;
+
+}
+
+.contact-info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.contact-info h3 {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    text-align: center;
+    left: 20px;
+text-align: left;
+}
+
+
+.home-button:hover {
+    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.header-shape {
+    background-color:  #A0522D;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+   
+}

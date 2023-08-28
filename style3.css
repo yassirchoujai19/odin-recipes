@@ -1,0 +1,109 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; 
+}
+
+header {
+    background-color: #83f3e0; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 40px 0;
+    border-bottom-left-radius: 9px ;
+    border-bottom-right-radius: 9px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.categories-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.categories-list li {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f1f1; 
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categories-list h3 {
+    color: #f1a695; 
+    margin-bottom: 3px;
+}
+
+.categories-list p {
+    color: #333333; 
+    margin-bottom: 15px;
+}
+
+.categories-list a  {
+    color: #0cb34c; 
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.like-dislike-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.like-button, .dislike-button {
+    padding: 5px 15px;
+    margin: 0 10px;
+    background-color: #355f5a; 
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .like-button:hover {
+        transform: translateX(-2px) translateY(-2px);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+    .dislike-button:hover {
+        transform: translateX(-2px) translateY(-2px);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+.contact-info {
+    background-color: #333333;
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+.about-button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.about-button:hover {
+    transform: translateX(-3px) translateY(-3px);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-button a {
+    color: #009688; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
